@@ -79,6 +79,8 @@ namespace LesApp3
             }
             Console.WriteLine("\t" + s.ToString());
 
+            list.ShowInfo();
+
             // repeat
             DoExitOrRepeat();
         }
