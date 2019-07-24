@@ -79,6 +79,7 @@ namespace LesApp3
             }
             Console.WriteLine("\t" + s.ToString());
 
+            // інформація про колекцію
             list.ShowInfo();
 
             // repeat
