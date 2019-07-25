@@ -110,12 +110,12 @@ namespace LesApp1
             var power = (int)Math.Ceiling(Math.Log(mas.Length + Count)
                 / Math.Log(2));
 
-            // перевырка чи всі елемнти помістяться в наявний масив
+            // перевірка чи всі елемнти помістяться в наявний масив
             if (mas.Length + Count == Capacity)
             {
                 Resize((int)Math.Pow(2, power + 1));
             }
-            else if (mas.Length + Count >= Capacity)
+            else if (mas.Length + Count > Capacity)
             {
                 Resize((int)Math.Pow(2, power));
             }
